@@ -3,6 +3,8 @@ class Category:
     # ledger = list()
     # _category = str()
     # balance = float()
+    # this is a class attribute not instance attribute
+    
     # Constructor
     def __init__(self, _category: str):
         self.ledger = list()
